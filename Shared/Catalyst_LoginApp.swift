@@ -11,7 +11,9 @@ import SwiftUI
 struct Catalyst_LoginApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
+                .environmentObject(LoginViewModel())
+                .preferredColorScheme(.light)
         }
     }
 }

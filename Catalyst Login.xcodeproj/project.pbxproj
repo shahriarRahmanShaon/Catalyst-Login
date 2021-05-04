@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00302F392641995F009BBDAD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00302F382641995F009BBDAD /* Login.swift */; };
+		00302F3C2641A888009BBDAD /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBED926416E5D0071DF09 /* Register.swift */; };
+		00302F3D2641A888009BBDAD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBED526416C760071DF09 /* LoginViewModel.swift */; };
+		00302F3E2641A888009BBDAD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00302F382641995F009BBDAD /* Login.swift */; };
+		00302F3F2641A888009BBDAD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBECF264146750071DF09 /* Home.swift */; };
 		003EBEBB264145320071DF09 /* Catalyst_LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBEA82641452F0071DF09 /* Catalyst_LoginApp.swift */; };
 		003EBEBC264145320071DF09 /* Catalyst_LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBEA82641452F0071DF09 /* Catalyst_LoginApp.swift */; };
-		003EBEBD264145320071DF09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBEA92641452F0071DF09 /* ContentView.swift */; };
-		003EBEBE264145320071DF09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBEA92641452F0071DF09 /* ContentView.swift */; };
 		003EBEBF264145320071DF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003EBEAA264145320071DF09 /* Assets.xcassets */; };
 		003EBEC0264145320071DF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003EBEAA264145320071DF09 /* Assets.xcassets */; };
+		003EBED0264146750071DF09 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBECF264146750071DF09 /* Home.swift */; };
+		003EBED626416C760071DF09 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBED526416C760071DF09 /* LoginViewModel.swift */; };
+		003EBEDA26416E5D0071DF09 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBED926416E5D0071DF09 /* Register.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00302F382641995F009BBDAD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		003EBEA82641452F0071DF09 /* Catalyst_LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalyst_LoginApp.swift; sourceTree = "<group>"; };
-		003EBEA92641452F0071DF09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		003EBEAA264145320071DF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		003EBEAF264145320071DF09 /* Catalyst Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catalyst Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		003EBEB2264145320071DF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		003EBEB7264145320071DF09 /* Catalyst Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catalyst Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		003EBEB9264145320071DF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		003EBEBA264145320071DF09 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		003EBECF264146750071DF09 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		003EBED526416C760071DF09 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		003EBED926416E5D0071DF09 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				003EBEA82641452F0071DF09 /* Catalyst_LoginApp.swift */,
-				003EBEA92641452F0071DF09 /* ContentView.swift */,
+				003EBECE264146230071DF09 /* ViewModels */,
+				003EBECB264145E40071DF09 /* Views */,
 				003EBEAA264145320071DF09 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +98,24 @@
 				003EBEBA264145320071DF09 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		003EBECB264145E40071DF09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				003EBECF264146750071DF09 /* Home.swift */,
+				003EBED926416E5D0071DF09 /* Register.swift */,
+				00302F382641995F009BBDAD /* Login.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		003EBECE264146230071DF09 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				003EBED526416C760071DF09 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003EBEBD264145320071DF09 /* ContentView.swift in Sources */,
+				003EBED626416C760071DF09 /* LoginViewModel.swift in Sources */,
+				00302F392641995F009BBDAD /* Login.swift in Sources */,
+				003EBED0264146750071DF09 /* Home.swift in Sources */,
 				003EBEBB264145320071DF09 /* Catalyst_LoginApp.swift in Sources */,
+				003EBEDA26416E5D0071DF09 /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003EBEBE264145320071DF09 /* ContentView.swift in Sources */,
+				00302F3C2641A888009BBDAD /* Register.swift in Sources */,
 				003EBEBC264145320071DF09 /* Catalyst_LoginApp.swift in Sources */,
+				00302F3F2641A888009BBDAD /* Home.swift in Sources */,
+				00302F3D2641A888009BBDAD /* LoginViewModel.swift in Sources */,
+				00302F3E2641A888009BBDAD /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
